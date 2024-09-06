@@ -3,17 +3,17 @@
     padding: 0;
      box-sizing: border-box;
  }
- .parent{
-    height: 9vh;
+  .parent{
+    height: 10vh;
     width: 100%;
     background-color: white;
    display: flex;
-    /* margin-top: auto; */
-    /* margin-bottom: 70px; */
+    margin-top: auto;
+    margin-bottom: auto;
     font-family: sans-serif;color: grey;
     align-items: center;
     align-content: center;
-    position: fixed;
+   position: fixed;
     /* position: static; */
 
 } *
@@ -72,11 +72,11 @@
     background-color: transparent;
     display: flex;
     gap: 30px;
-    /* text-align: center; */
 justify-content: center;
     margin-top: 20px;
+    font-size: medium; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
     
-}
 .read{
 background-color: blue;
 height: 55px;
@@ -86,6 +86,7 @@ border: 2px solid white;
 border-radius: 6px;
 color: white;
 }
+
 .download{
     background-color: transparent;
     padding: 20px;
@@ -108,6 +109,7 @@ margin-top: 30px;
 justify-content: center;
 font-weight: bold;
 color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }   
 .seofriendly{
     height: 50vh;
@@ -204,13 +206,14 @@ color: white;
 }.text{
     padding-top: 20px;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .info{
     padding-top: 18px;
     height: 50px;
     width: 200px;
     background-color: rgb(165, 108, 219);
-    margin-left: 530px;
+    margin-left: 400px;
     margin-top: 10px;
     border-radius: 2px;
     color: white;
@@ -223,10 +226,15 @@ color: white;
 .limitlessoption{
 font-size: xx-large;   
 font-weight: 400;
+
 }
 .writing{
     color: gray;
     padding-top: 30px;
+    font-size: medium;
+    font-style: normal;   
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font: 300;
 }
 .tap{
     margin-top: 25px;
@@ -234,7 +242,7 @@ font-weight: 400;
     background-color: rgb(165, 108, 219);
     height: 50px;
     width: 200px;
-    margin-left: 530px;
+    margin-left: 400px;
     padding-top: 18px;
 }
  .imgdiv{
@@ -243,9 +251,11 @@ font-weight: 400;
     padding-left: 30px;
  height: 100vh; 
  background-image: url(image/photo-tree.jpg);
+ background-repeat: no-repeat;
+ margin-left: 30px; 
 } 
 .project{
-    height: 200px;
+    height: 30vh;
     background-color: black;
     color: white;
     text-align: center;
@@ -266,7 +276,8 @@ padding-top: 70px;
  .session-images{
 display: flex;
 flex-wrap: wrap;
-/* margin-top: 40px; */
+
+background-color: black;
  }  
  .session-images div{
     width: calc(100% / 4);
@@ -281,7 +292,7 @@ flex-wrap: wrap;
  }
  .what{
 background-image: url(image/beautiful.avif);
-height: 40vh;
+height: 50vh;
 background-repeat: no-repeat;
 background-size: cover;
 text-align: center;
@@ -290,10 +301,12 @@ text-align: center;
  .say{
     font-size: xx-large;
     padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
  .nteger{
-    font-size: small;
+    font-size: medium;
     padding-top: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
 .border{
     background-color: white;
@@ -304,19 +317,21 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 10px;
 background-image: url(image/mike-muller-150x150.jpg);
+margin-bottom: 40px;
 }
 .client{
     height: 40vh;
     background-color: whitesmoke;
      justify-content: center;
     align-content: center;
-    /* width: 50%; */
+    padding-top: 40px;
 }
 .partnership{
     text-align: center;
     font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 100px;
+    /* padding-top: 100px; */
+
 }
 .client-img-div{
     height: 100%;
@@ -324,7 +339,8 @@ background-image: url(image/mike-muller-150x150.jpg);
     width: 100%;
 display: flex;
 gap: 150px;
-padding-top: 100px;
+padding-top: 40px;
+position: fixed;
 }
 .b{
     width: 100px;
@@ -366,6 +382,33 @@ padding-top: 100px;
     height: 70px;
     object-fit: contain;
 }
-@media (max-width: 834) {
-    .client
+.wordpresstheme{
+    height: 30vh;
+    text-align: center;
+    background-color: bisque;
+    padding-top: 14vh;
+
+}
+.note{
+    font-size: xx-large;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.click{
+    font-size: medium;
+    padding-left: 20px;
+    display: flex;
+    background-color: blueviolet;
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    padding-top: 18px;
+    padding-right: 10px;
+    margin-left: 100px;
+}
+.footerparent{
+    height: 40vh;
+    /* background-color: black; */
 }
